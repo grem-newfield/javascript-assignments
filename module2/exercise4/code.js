@@ -2,6 +2,7 @@ let nums = []
 
 while (true) {
   let input = parseFloat(prompt('Enter a number'))
+  if (isNaN(input)) continue;
   if (input == 0) break;
   nums.push(input)
 }
